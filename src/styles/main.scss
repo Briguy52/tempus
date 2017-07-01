@@ -1,0 +1,36 @@
+:global {
+  @import 'base';
+  @import '~normalize.css/normalize';
+  @import url(https://allfont.net/allfont.css?fonts=montserrat-light);
+
+  // Note(blin): This class is used for universal frontend styling
+
+  html {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  @media (max-width: $desktopBreakpoint) {
+    body {
+      overflow: auto;
+    }
+  }
+
+  div {
+    font-family: 'Avenir Next', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
