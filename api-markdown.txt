@@ -1,0 +1,31 @@
+View 1: Dashboard
+	- Header - APO Calendar Welcome Thing -> dummy call for now on the user 
+		- This is going to need data from the backend 
+	- Calendar View 
+		-  send the organization to the backend, then the backend will send back calendar details for that organization 
+			- so it needs to have this stored, if request is made for an organization that's not in there thrown an erorr
+			- organization event details:
+				- < Organization name unique key (after encoding) , List<Events>> OrganizationCalendar implements Calendar which is an interface with a key and list of events
+					- Event Name #name
+					- Event Date #date
+					- Event location  #location
+					- Event coordinator : Actual name, phone number, email also shows up in the created by #coordinator (TODO)
+					- Event Sign Up deadline  #endDate 
+					- Event Sign Up Start #startDate
+					- Event Users (ID, Strings) #dont add till we decide everything that users are going to do 
+					- Event Description #description
+					- Rewards #rewards = list<reward> (won't necessarily implement this now till some more thought)
+						- hour, social, ect. won't necessarily display
+	- Sidebar
+		- Always visible on desktop version (mobile its different)
+	
+	
+First step is to just make the calendar, and get dummy events to pop up, get the header pulling from the backend, eventually this will be settable by an administrative users
+Test this with dummy prebuilt events.
+
+
+
+After that add users
+after that add the option to create events
+
+- Need to have a hashing function set up.
