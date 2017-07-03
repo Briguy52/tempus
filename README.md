@@ -27,3 +27,7 @@ After making changes, pull down any new changes and put yours on top (`git pull 
 Now you can go to our repo on Github.com and make a pull request into master. It'll tell you if there's any conflicts. Obviously, if there are any, fix them and then make a new request. If it looks good, then assign a reviewer and submit your pull request. 
 
 It things look good, then you can go ahead and merge your branch into master. If not, make any changes mentioned by the reviewer until your commit looks good. 
+
+## Acknowledgements
+
+I'd like to thank both the makers of the [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit) and the rest of the HackDuke tech team that I learned so much from last Fall. 
