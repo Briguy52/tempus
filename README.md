@@ -22,11 +22,11 @@ Before committing any code to master, make sure you run both `npm test` and `npm
 
 ## Submitting code
 
-After making changes, pull down any new changes and put yours on top (`git pull --rebase`), add your files (`git add <name of file>`), commit (`git commit -m "message goes here"`), and then push your branch to the remote repository on Github.com (`git push origin <name of branch>`). 
+After making changes, pull down any new commits and put yours on top (`git pull --rebase`), add your files (`git add <name of file>`), commit (`git commit -m "message goes here"`), and then push your branch to the remote repository on Github.com (`git push origin <name of branch>`). 
 
-Now you can go to our repo on Github.com and make a pull request into master. It'll tell you if there's any conflicts. Obviously, if there are any, fix them and then make a new request. If it looks good, then assign a reviewer and submit your pull request. 
+Now you can go to our repo on Github.com and make a pull request into master. It'll tell you if there's any conflicts. Obviously, if there are any, fix them and then make a new request. After fixing them, assign a reviewer and submit your pull request. 
 
-It things look good, then you can go ahead and merge your branch into master. If not, make any changes mentioned by the reviewer until your commit looks good. 
+After receiving feedback from your reviewer, you should either fix anything they mention or if they give you the okay, go ahead and merge your branch into master. 
 
 ## Acknowledgements
 
