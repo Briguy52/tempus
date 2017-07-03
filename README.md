@@ -30,4 +30,4 @@ It things look good, then you can go ahead and merge your branch into master. If
 
 ## Acknowledgements
 
-I'd like to thank both the makers of the [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit) and the rest of the HackDuke tech team that I learned so much from last Fall. 
+I'd like to thank both the makers of the [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit) and the rest of the HackDuke tech team that I learned so much from last Fall. I also want to thank Karen for giving us the idea for this and Pulkit for working on this with me lol. 
