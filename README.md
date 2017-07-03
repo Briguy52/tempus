@@ -12,7 +12,7 @@
 
 3. run `npm install`. This installs all the dependencies specified in our `package.json` list of dependencies. You can't run the project without them.
 
-## Running the project
+## Running the project locally
 
 run `npm start` to run the server. By default, you should be able to find the site at `localhost:3000`. 
 
