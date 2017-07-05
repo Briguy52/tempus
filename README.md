@@ -28,6 +28,12 @@ Now you can go to our repo on Github.com and make a pull request into master. It
 
 After receiving feedback from your reviewer, you should either fix anything they mention or if they give you the okay, go ahead and merge your branch into master. 
 
-## Acknowledgements
+# Recommended reading
+
+We use [Redux](http://redux.js.org/) to store state. To quote:
+
+> There is just a single store with a single root reducing function. As your app grows, instead of adding stores, you split the root reducer into smaller reducers independently operating on the different parts of the state tree. This is exactly like how there is just one root component in a React app, but it is composed out of many small components.
+
+# Acknowledgements
 
 I'd like to thank both the makers of the [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit) and the rest of the HackDuke tech team that I learned so much from last Fall. I also want to thank Karen for giving us the idea for this and Pulkit for working on this with me lol. 
