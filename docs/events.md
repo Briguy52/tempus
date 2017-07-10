@@ -53,9 +53,9 @@ Really, the only difference is that with Typeform you just focus one field at a 
 
 Note: consider having a `Boolean completed` value that is normally evaluated by seeing if current system time > `end` OR can be overrided by the organizer setting the event as completed. 
 
-## Attendance (bottom section)
-
 `Award award` - what attendees receive for attending the event (1 socialAward, 3 serviceHourAwards, etc.)
+
+`int awardAmount` - how much of the award?
 
 `List<User> attendees` - a list of the users going to the event
 
