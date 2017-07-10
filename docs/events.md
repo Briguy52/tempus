@@ -41,6 +41,8 @@ Really, the only difference is that with Typeform you just focus one field at a 
 
 `String end` - same as above
 
+`String repeat` - a constant (e.g NONE or EVERY_DAY) that specificies if the event repeats
+
 `Location location` - location for the event, consists of a String (required) and an optional GPS pin
 
 `String description` - a bit more about the event
