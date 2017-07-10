@@ -39,6 +39,8 @@ Really, the only difference is that with Typeform you just focus one field at a 
 
 `String end` - same as above
 
+`Location location` - location for the event (just a String or require picking a place on the map?)
+
 `String description` - a bit more about the event
 
 `User organizer` - who is organizing the event
