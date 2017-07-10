@@ -21,11 +21,13 @@ If you want more detail, like adding comments, you double click on the event.
 
 ## Submission and Scrolling
 
-Two options:
+A couple options:
 
 1. Typeform style - only focus one field at a time, hit `Enter` after completing each one. You can still scroll up and down though. Hit submit at the end.
 
 2. Google Forms style - can scroll through all fields. Hit `Enter` at the end.
+
+3. GitHub new issue style - side by side
 
 Really, the only difference is that with Typeform you just focus one field at a time and it looks more elegant/minimal/clean/etc. because of that. Let's go for that if possible (I'm sure there's some React tutorials for that).
 
