@@ -45,6 +45,8 @@ Really, the only difference is that with Typeform you just focus one field at a 
 
 `String signUpDeadline` - when sign-ups close
 
+`int capacity` - maximum number of attendees
+
 `Boolean completed` - has the event been completed (and so awards should be given out)
 
 Note: consider having a `Boolean completed` value that is normally evaluated by seeing if current system time > `end` OR can be overrided by the organizer setting the event as completed. 
