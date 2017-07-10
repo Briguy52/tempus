@@ -35,11 +35,11 @@ Really, the only difference is that with Typeform you just focus one field at a 
 
 `String name` - name of the event
 
-`String start` - we'll use the Unix epoch time or whatever that's called
+`String start` - user can select a date using the date picker OR type in a String for parse (e.g. "7/13/2017 at 7pm" or "7:00 on 7/13" or "seven pm next Wednesday" are all equivalent) 
 
 `String end` - same as above
 
-`Location location` - location for the event (just a String or require picking a place on the map?)
+`Location location` - location for the event, consists of a String (required) and an optional GPS pin
 
 `String description` - a bit more about the event
 
